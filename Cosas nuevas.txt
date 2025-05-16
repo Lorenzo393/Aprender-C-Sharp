@@ -1,0 +1,49 @@
+-VAR- COMO EN PYTHON EL TIPO LO DETERMINA EL DATO CON EL QUE LO INICIALICES
+var variable = "hola"; -string
+var variable2 = 5; - int
+
+SE PUEDEN SUMAR LOS ARRAYS
+"hola" + " " + "mundo" = "hola mundo"
+
+PARA ESCRIBIR VARIABLES EN Console.WriteLine
+Console.WriteLine($"El {variable} tiene {variable} años de edad"); ------ $ ---- "{variable}"
+
+PARA ESCRIBIR "" EN Console.WriteLine
+Console.WriteLine("El señor \" barriga \" es ..."); ----------- \"
+
+SE PUEDE ESCRIBIR EL MISMO NOMBRE DE FUNCION CON DISTINTOS PARAMETROS (Solo funciona en la plantilla completa) (Se llaman sobrecargas)
+int suma(int a, int b){
+	return a+b;
+}
+int suma(int a, int b, int c){
+	return a+b+c;
+}
+
+PARA DECLARAR UN ARRAY
+int[] array = new int[tamaño]; -Si no se especifica se inicializan todos con 0
+int[] array = new int[tamaño] {1,2,3,4,5};
+int[] array2 = {1,2,3,4,5,6,7,8};
+
+PARA DECLARAR UNA LISTA
+List<int> lista = new List<int>(tamaño);
+List<int> lista2 = new List<int> {1,2,3,4,5};
+
+FOREACH (Como el for de python)
+void mostrar(int[] array){
+	foreach(int numero in array){
+	Console.WriteLine(numero);  }	
+}
+
+CLASS/OBJETOS
+No se pude definir una clase adentro de una funcion
+Se puede definir una clase adentro de otra
+El constructor es el que construye un objeto
+Se pueden definir funciones adentro de clases
+
+Player player = new Player(); -- LLAMA AL CONSTRUCTOR DE LA FUNCION
+
+class Player{
+	public Player(argumentos){ -- CONSTRUCTOR -- PUBLIC(Sino no se puede acceder desde otra parte del codigo)
+		instrucciones
+	}
+}

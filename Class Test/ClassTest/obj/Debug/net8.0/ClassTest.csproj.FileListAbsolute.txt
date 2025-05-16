@@ -1,0 +1,15 @@
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\bin\Debug\net8.0\ClassTest.exe
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\bin\Debug\net8.0\ClassTest.deps.json
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\bin\Debug\net8.0\ClassTest.runtimeconfig.json
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\bin\Debug\net8.0\ClassTest.dll
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\bin\Debug\net8.0\ClassTest.pdb
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.AssemblyInfoInputs.cache
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.AssemblyInfo.cs
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.csproj.CoreCompileInputs.cache
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.sourcelink.json
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.dll
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\refint\ClassTest.dll
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.pdb
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ClassTest.genruntimeconfig.cache
+C:\Users\loloc\OneDrive\Escritorio\Aprender-C-Sharp\Class Test\ClassTest\obj\Debug\net8.0\ref\ClassTest.dll

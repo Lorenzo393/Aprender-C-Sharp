@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\loloc\\OneDrive\\Escritorio\\Aprender-C-Sharp\\Class Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE8FC22-48F4-4442-9A46-6905834AE4AC}|ClassTest\\ClassTest.csproj|c:\\users\\loloc\\onedrive\\escritorio\\aprender-c-sharp\\class test\\classtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE8FC22-48F4-4442-9A46-6905834AE4AC}|ClassTest\\ClassTest.csproj|solutionrelative:classtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loloc\\OneDrive\\Escritorio\\Aprender-C-Sharp\\Class Test\\ClassTest\\Program.cs",
+              "RelativeDocumentMoniker": "ClassTest\\Program.cs",
+              "ToolTip": "C:\\Users\\loloc\\OneDrive\\Escritorio\\Aprender-C-Sharp\\Class Test\\ClassTest\\Program.cs*",
+              "RelativeToolTip": "ClassTest\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:46:48.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
