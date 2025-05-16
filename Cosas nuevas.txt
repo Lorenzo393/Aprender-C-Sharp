@@ -2,14 +2,20 @@
 var variable = "hola"; -string
 var variable2 = 5; - int
 
+
+
 SE PUEDEN SUMAR LOS ARRAYS
 "hola" + " " + "mundo" = "hola mundo"
+
+
 
 PARA ESCRIBIR VARIABLES EN Console.WriteLine
 Console.WriteLine($"El {variable} tiene {variable} años de edad"); ------ $ ---- "{variable}"
 
 PARA ESCRIBIR "" EN Console.WriteLine
 Console.WriteLine("El señor \" barriga \" es ..."); ----------- \"
+
+
 
 SE PUEDE ESCRIBIR EL MISMO NOMBRE DE FUNCION CON DISTINTOS PARAMETROS (Solo funciona en la plantilla completa) (Se llaman sobrecargas)
 int suma(int a, int b){
@@ -18,6 +24,8 @@ int suma(int a, int b){
 int suma(int a, int b, int c){
 	return a+b+c;
 }
+
+
 
 PARA DECLARAR UN ARRAY
 int[] array = new int[tamaño]; -Si no se especifica se inicializan todos con 0
@@ -34,11 +42,13 @@ void mostrar(int[] array){
 	Console.WriteLine(numero);  }	
 }
 
+
+
 CLASS/OBJETOS
-No se pude definir una clase adentro de una funcion
-Se puede definir una clase adentro de otra
-El constructor es el que construye un objeto
-Se pueden definir funciones adentro de clases
+ No se pude definir una clase adentro de una funcion
+ Se puede definir una clase adentro de otra
+ El constructor es el que construye un objeto
+ Se pueden definir funciones adentro de clases
 
 Player player = new Player(); -- LLAMA AL CONSTRUCTOR DE LA FUNCION
 
@@ -47,3 +57,87 @@ class Player{
 		instrucciones
 	}
 }
+
+
+
+STATIC
+ Si declaras algo estatico en una clase esa variable va a pertenecer a la clase en si misma y no a cada una de sus instancias, es decir
+todos los miembros comparten entre todos la misma instancia. Esta se puede acceder directamente a traves del nombre de la clase sin necesidad
+de crear una instancia
+ Pertenece a la clase en si misma y no a una de sus instancias
+ Para acceder a una variable desde una funcion estatica esta tambien debe ser estatica
+ Se puede acceder a una variable estatica desde una funcion no estatica
+ Console.WriteLine es estatica ya que llamamos a la clase Console directamente
+
+class Hola{
+	public static name = "pedro"
+	static void EscribirHola(){
+		Console.WriteLine($"Hola {name}"); --Para acceder a una variable desde una funcion estatica esta tambien debe ser estatica
+	}
+}
+
+Hola.EscribirHola(); --- Accedo directamente a la clase en vez de crear una instancia de la misma y acceder a la funcion
+
+
+
+PUBLIC Y PRIVATE
+ Los modificadores de acceso por defecto varian, por ejemplo en una clase es intrenal pero en funciones/variables de una clase es private
+ Cuando es privado es solo accesible dentro de esa clase y nada mas
+ Cuando es publica es accesible desde otras clases
+ La mejor manera de manejar la complejidad es limitando la accesibilidad
+ Existen muchos modificadores de acceso: file - private - private protected - internal - protected - protected internal - public
+ Modificadores: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+
+
+
+
+CTROL + r + r PARA RENOMBRAR - En visual 2022
+
+
+
+
+CODIGO LIMPIO
+ No usar números mágicos
+ No usar strings como identificadores
+ Manejar la complejidad escondiendo información
+ Un solo principio de responsabilidad(Una clase/funcion debe hacer una y solo una cosa)
+ Agrupar la lógica o datos(En vez de tener 3 variables de stats de personaje hacer una clase con los stats del jugador)
+ Evitar comentarios, el código debe ser entendible por si solo
+ Siempre revisar y refactorizar el codigo 
+ No repetir código
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
