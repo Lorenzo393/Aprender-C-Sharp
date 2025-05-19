@@ -1,4 +1,6 @@
-﻿namespace ClassTest
+﻿using System.Runtime.CompilerServices;
+
+namespace ClassTest
 {
     public class Program
     {
@@ -11,6 +13,11 @@
             player2.SayHello();
 
             Console.WriteLine(Player.health);
+
+            PlayerActions.Pactions pactions = PlayerActions.Pactions.NoEnemy;
+            pactions++;
+            Console.WriteLine(pactions);
+
         }
 
         private class Player
@@ -33,5 +40,16 @@
                 Console.WriteLine($"Player health: {health}");
             }
         }
+        static private class PlayerActions
+        {
+            public enum Pactions //No lo puedo declarar en el main(no se PQ)
+            {
+                NoEnemy,
+                NoPathToEnemy,
+                MovingTowardEnemy,
+                AttackingEnemy,
+            }
+        }
     }
 }
+

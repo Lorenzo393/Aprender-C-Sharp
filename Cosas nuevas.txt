@@ -106,8 +106,24 @@ CODIGO LIMPIO
  Siempre revisar y refactorizar el codigo 
  No repetir código
 
+ENUM
+ Pueden servir para retornar un estado en vez de algún numero mágico que represente alguna cosa
+ Los enums pueden ser usados para maquinas de estado
+ Los valores de los enums son guardados como ints
+ enum es parte de system
+ 
 
+ PlayerActions.Pactions pactions = PlayerActions.Pactions.NoEnemy; --- Se puede aumentar como un int
+ pactions++;
 
+ private enum PlayerState{
+	Walking,
+	Running,
+	Combat,
+	Sleeping,
+ }
+ 
+ 
 
 
 
