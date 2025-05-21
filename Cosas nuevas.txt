@@ -123,17 +123,44 @@ ENUM
 	Sleeping,
  }
  
- 
+PROPERTIES
+ Es una mezcla entre una función y una variable. "Guardar información" y aplicarle alguna logica
+ Si se declara private tanto get como set van a ser privadas pero si se declara como public tanto get como set lo seran
+
+private string PlayerName {get; set;}
 
 
+PlayerName = "Obama" -- La uso como una variable, lo que pasa es que crea una variable oculta. En realidad las propiedades no almacenan datos
 
+----
+private string playerName;
+private string PlayerName{
+	get{
+		return playerName;	
+	}
+	set{
+		playerName = value;
+	}
+}
 
+PlayerName = "Obama" --- Va a almacenar la variable en playerName(Declaramos lo que hacia antes en secreto)
 
+----
 
-
-
-
-
+private string PlayerName{
+	get{
+		if(playerName == null){ ---- Se le puede agregar logica
+			return "Unknow";
+		}
+		return playerName;	
+	}
+	set{
+		if(value == "Obama"){
+			throw new Exception("Cannot name player Obama");
+		}
+		playerName = value;
+	}
+}
 
 
 

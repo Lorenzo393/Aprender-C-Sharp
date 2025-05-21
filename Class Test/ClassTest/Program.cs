@@ -17,10 +17,9 @@ namespace ClassTest
             PlayerActions.Pactions pactions = PlayerActions.Pactions.NoEnemy;
             pactions++;
             Console.WriteLine(pactions);
+    }
 
-        }
-
-        private class Player
+    private class Player
         {
             public string name = "-"; //Class variable/field
             public static int health = 100;

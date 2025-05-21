@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\loloc\\OneDrive\\Escritorio\\Aprender-C-Sharp\\Test Properties\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5FBAE8-37C7-4FFA-B716-76C5A2FF05AC}|Test Properties\\Test Properties.csproj|c:\\users\\loloc\\onedrive\\escritorio\\aprender-c-sharp\\test properties\\test properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5FBAE8-37C7-4FFA-B716-76C5A2FF05AC}|Test Properties\\Test Properties.csproj|solutionrelative:test properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loloc\\OneDrive\\Escritorio\\Aprender-C-Sharp\\Test Properties\\Test Properties\\Program.cs",
+              "RelativeDocumentMoniker": "Test Properties\\Program.cs",
+              "ToolTip": "C:\\Users\\loloc\\OneDrive\\Escritorio\\Aprender-C-Sharp\\Test Properties\\Test Properties\\Program.cs",
+              "RelativeToolTip": "Test Properties\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:08:46.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
